@@ -2,7 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity("Servico") // Nome da tabela "Servico"
 export class Servico {
-  @PrimaryGeneratedColumn({ name: "idServico" }) // Nome da coluna "idServico"
+  @PrimaryGeneratedColumn({ name: "idServiço" }) // Nome da coluna "idServico"
   idServico!: number;
 
   @Column({ type: "varchar", length: 45, nullable: false })
