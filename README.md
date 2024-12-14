@@ -98,25 +98,11 @@ Este projeto implementa uma API RESTful para gerenciar serviços de um salão de
 
 Configure as credenciais de conexão com o banco de dados no arquivo `db.config.ts`. As configurações padrão são:
 
-```
 HOST: "localhost"
 PORT: 3306
 USER: "root"
 PASSWORD: "root"
 DB: "mydb"
-```
-
-## Estrutura de diretórios
-
-```
-src/
-├── controllers/
-├── db/
-├── model/
-├── repositories/
-├── routes/
-└── index.ts
-```
 
 ## Testando com o Postman
 
