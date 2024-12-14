@@ -68,42 +68,6 @@ Para requisições POST e PUT, use a opção `x-www-form-urlencoded` no corpo da
 *   TypeORM
 *   MySQL
 
---- ReadME2 ---
-
-```markdown
-# Projeto CRUD de Serviços de Salão
-
-Este projeto implementa uma API RESTful para gerenciar serviços de um salão de beleza utilizando Node.js, TypeScript, Express, TypeORM e MySQL.
-
-
-## Pré-requisitos
-
-* Node.js (versão recomendada: 16 ou superior)
-* npm (ou yarn)
-* MySQL instalado e rodando
-
-## Instalação
-
-1. Clone o repositório: `git clone <link_do_repositorio>`
-2. Navegue até o diretório do projeto: `cd <diretório_do_projeto>`
-3. Instale as dependências: `npm install`
-4. Execute o comando de build : `npm run build`
-
-## Executando a Aplicação
-
-1. Certifique-se de que o MySQL está rodando.
-2. Execute o comando: `npm start` ou `npm run dev` (para desenvolvimento com watch)
-
-## Conexão com o Banco de Dados
-
-Configure as credenciais de conexão com o banco de dados no arquivo `db.config.ts`. As configurações padrão são:
-
-HOST: "localhost"
-PORT: 3306
-USER: "root"
-PASSWORD: "root"
-DB: "mydb"
-
 ## Testando com o Postman
 
 **Caminho base:** `/salaocrud`
@@ -161,12 +125,11 @@ MIT
 ## Autor
 
 Richardfcs
+
+
+
+
 ```
-
-
-
-
-
 --- Para colaboradores ---
 
 Instruções de uso:
@@ -210,3 +173,4 @@ nome
 descricao
 valor
 em value colocar o que quer passar para o banco, após isso aperte send.
+```
