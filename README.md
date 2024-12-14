@@ -158,6 +158,8 @@ host: localhost | port:3306
 3.1. Deve ter um banco de dados chamado: mydb
 use o create databasse mydb
 
+extra. ao abrir no vscode, clique no botão direito na pasta salaocrud e aperte em abir em um terminal integrado.
+
 4. base para o postman:
 http://localhost:8080/salaocrud/servico
 
