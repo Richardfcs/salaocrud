@@ -125,13 +125,13 @@ DB: "mydb"
 *   **Headers:** `Content-Type: application/json`
 *   **Body:**
 
-```json
+json
 {
   "nome": "Corte de cabelo",
   "descricao": "Corte masculino",
   "valor": 30.00
 }
-```
+
 
 **4. Atualizar um serviço (PUT):**
 
